@@ -19,6 +19,8 @@ Run Spring Boot (which will also install all dependencies)
 ```
 (from the root of example project)
 ./gradlew bootRun
+OR IN WINDOWS
+.\gradlew bootRun
 ```
 
 Go to `http://localhost:9000` in browser
