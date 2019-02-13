@@ -10,12 +10,15 @@ spring boot initializr (https://start.spring.io/).
 ## How to start
 Build frontend environment
 ```
-sfs
+cd web
+npm install
+npm run serve
 ```
 
 Run Spring Boot (which will also install all dependencies)
 ```
-sfs
+(from the root of example project)
+./gradlew bootRun
 ```
 
-Go to `http://localhost:8080/greeting` in browser
+Go to `http://localhost:9000` in browser
