@@ -1,29 +1,19 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld v-bind:msg="hello"/>
+    <cors-form/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import axios from "axios";
+import CorsForm from './components/Cors.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
-  },
-  data() {
-    return {
-      hello: null
-    }
-  },
-  mounted () {
-    axios.get('http://localhost:8080/hello-world').then(response => (this.hello = response.data));
+    'cors-form': CorsForm
   }
 }
-
 </script>
 
 <style>

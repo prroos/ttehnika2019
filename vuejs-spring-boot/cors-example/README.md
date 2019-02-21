@@ -1,4 +1,4 @@
-# Example project for Vue.js and Spring Boot
+# Example CORS project for Vue.js and Spring Boot
 
 Documentation for frameworks be found from:
 - https://vuejs.org/v2/guide/
@@ -19,8 +19,6 @@ Run Spring Boot (which will also install all dependencies)
 ```
 (from the root of example project)
 ./gradlew bootRun
-OR IN WINDOWS
-.\gradlew bootRun
 ```
 
-Go to `http://localhost:9000` in browser
+Go to `http://localhost:8081` in browser
