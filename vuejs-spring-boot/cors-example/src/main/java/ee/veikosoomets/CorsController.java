@@ -1,4 +1,4 @@
-package ee.veikosoomets.example;
+package ee.veikosoomets;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
